@@ -1,0 +1,15 @@
+Run validations on form fields
+Use DATA ANNOTATIONS and MODELS to generate error messages
+Errors for each field that submits invalid data
+Similar to Dojo Survey assignment
+
+Errors:
+All fields are required
+First and last name must each be at least 4 characters long
+Age must be a positive number
+Email must be in a valid email format
+Password must be at least 8 characters long
+
+Build user model
+If not successful, errors on submission page
+If successful validation, display success page

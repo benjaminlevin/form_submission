@@ -1,0 +1,22 @@
+@{
+    ViewData["Title"] = "Registration";
+}
+<div id="errors">
+</div>
+<div id="main">
+    <h3>Enter Your Information:</h3>
+    <form action='/submit' id='regForm' method='post'>
+        <h6>First Name: </h6> 
+        <input type='text' name='FirstName'>
+        <h6>Last Name: </h6>
+        <input type='text' name='LastName'>
+        <h6>Age: </h6>
+        <input type='text' name='Age'>
+        <h6>e-mail: </h6>
+        <input type='text' name='Email'>
+        <h6>Password: </h6>
+        <input type='password' name='Password'>
+        <br>
+        <input type='submit' id='submit' value='Submit'>
+    </form>
+</div>
